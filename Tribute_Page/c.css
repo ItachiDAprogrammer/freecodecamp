@@ -1,0 +1,22 @@
+body{
+	background-color: #FFd5ae;
+	font-size: 20px;
+	text-align: center;
+
+}
+#main {
+	margin: 10px
+	border: 0px;
+	padding: 5px;
+}
+#img
+{
+	align-self: center;
+}
+p{
+	text-align: left;
+}
+a:hover {
+	color: red;
+
+}
