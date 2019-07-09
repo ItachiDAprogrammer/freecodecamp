@@ -1,0 +1,21 @@
+body{
+	background-color: dodgerblue;
+}
+#form{
+	background-color: white;
+	margin-left: 200px;
+	margin-right: 200px;
+	padding: 20px;
+}
+.center{
+	text-align: center;
+}
+form{
+	position: absolute;
+	left: 35em;
+	line-height: 23px;
+}
+input{
+	position: absolute;
+	left: 70px;
+}
