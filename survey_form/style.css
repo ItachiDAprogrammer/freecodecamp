@@ -8,7 +8,9 @@ body{
 	text-align: center;
 }
 .right{
+
 	text-align: right;
+
 } 
 .form-box{
 	background: white;
@@ -16,13 +18,35 @@ body{
 	margin-left: 10em;
 	margin-right: 10em;
 	border-radius: 8px;
-
+}
+.form-table{
+	display: table;
+	padding: 15px;
+	border: ;
+	position: relative;
+	margin-left: 400px;
+}
+.row{
+	display: table-row;
+}
+.row label{
+ display: table-cell;
+ padding-left: 2px;
+ 
 
 }
+.row input{
+ display: table-cell;
+ padding-left: 2px;
 
-label{
- width: 450px;
- display: inline-block;
- padding-left: 15px;
-
+ }
+.footer{
+	text-align: right;
+	line-height: 10px;
+	font-weight:inline-block;
+	margin: 5px;
 }
+.fix{
+	
+}
+
