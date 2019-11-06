@@ -1,62 +1,36 @@
-<main>
-<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="style.css">
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-<h1 class="center" id="title">survey form</h1>
-<div class="form-box" id="form">
-	<p class="center" id="description"><b>please fill in this survey to help us better our services</b></p>
-	<div>
-	<form id="survey-form">
-		<div class="form-table">
-		<div class="row">
-		<label for="name" id="name-label">*Name:</label>
-		<input id="name" required type="Name" name="Name" placeholder="enter your name"><br>
-		</div>
-
-		<div class="row">
-		<label for="Email" id="email-label">*Email:</label>
-		<input id="email" required="" type="email" name="Email" placeholder="enter your email"><br>
-		</div>
-
-		<div class="row">
-		<label for="Age" id="number-label">*Age:</label>
-		<input type="number" name="">
-		</div>
-	</div>
-
-   	 	<section>
-   	 		<p class="center"><b>which of the following programming languages whold
-   	 	you say the easiest to learn?</b></p><br><br>
-   	 	
-   	 	<div class="form-table">
-
-   	 		<div class="row">
-   	 	<label for c++>C++</label>
-   	 	<input type="checkbox" name="fav-lang"><br><br>
-   	 		</dir>
-
-   	 		<div class="row">
-   	 	<label for="java">java</label>
-   	 	<input type="checkbox" name="fav-lang"><br><br>
-   	 		</div>
-
-   	 		<div class="row">
-   	 	<label for python>Python</label>
-   	 	<input type="checkbox" name="fav-lang"><br><br>
-   	 		</div>
-
-   	 		<div class="row">
-   	 	<label for="c#">c#</label>
-   	 	<input type="checkbox" name="fav-lang"><br><br>
-   	 		</div>
-   	 	</div>
-
-
-   	</section>
-		</form>
-	</div>
-</div>
-<footer class="footer"><i>A page by <a href="" target="_blank" >@teboho_ntene</a></i></footer>
-</main>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>survey form</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+      <h1 class="center" id="title">survey form</h1>
+      <p class="center" id="description"><b>please fill in this survey to help us better our services</b></p>
+      <div class="form">
+         <form id="survey-form">
+            <label for="name" id="name-label">*Name :</label>
+            <input id="name" required type="text" name="Name" placeholder="enter your name">
+            <label for="Email" id="email-label">*Email :</label>
+            <input id="email" required="" type="email" name="Email" placeholder="enter your email">
+            <label for="Age" id="number">*Age :</label>
+            <input type="number" min="18" max="35" required="" name="Age">
+            
+            <p>what is your current status</p>
+            <select id="dropdown" name="role" class="" required>
+              <option disabled selected value>Select current role</option>
+              <option value="student">Student</option>
+              <option value="job">Full Time Job</option>
+              <option value="learner">Full Time Learner</option>
+              <option value="preferNo">Prefer not to say</option>
+              <option value="other">Other</option>
+            </select>
+        
+         </form>
+      </div>
+   </div>
+   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
