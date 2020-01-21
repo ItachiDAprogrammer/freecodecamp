@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
+
+body{
+    
+    padding: 0;
+    margin: 0;
+    background-image:linear-gradient(to bottom , rgba(255, 255, 255, 0.603)10%, rgba(64, 20, 167, 0.493) ,rgba(19, 155, 37, 0.479)),url("media/bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#header-img{
+    width: 65px;
+    height: auto;
+}
+//header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(8, 8, 8, 0.76);
+}
+
+
+
+main{
+    background-color:gre
+}
+#nav-bar{
+    position: sticky;
+    background: rgba(3, 1, 32, 0.747);
+}
+
+.card{
+    opacity: .7;
+    background:black;
+    color: rgb(199, 195, 142);
+    text-align: center;
+    
+}
+#news-letter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#news-letter form label{
+    display: block;
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(199, 195, 142);
+}
+@media (min-width: 720px) {
+    #news-letter{
+
+    }
+    
+}
+
+.text-header{
+    color:rgba(149, 223, 130, 0.863);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+    margin-bottom: 100px;
+    padding-top: 20px;
+    line-height: 100px;
+}
